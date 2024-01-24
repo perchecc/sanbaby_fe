@@ -7,20 +7,28 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "/logo.png",
+    siteTitle: false,
     head: [["link", { rel: "icon", type: "image/ico", href: "/favicon.ico" }]],
     nav: [
       { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" },
-      { text: "Examples", link: "/markdown-examples" },
+      { text: "吃", link: "/eat/index" },
+      { text: "工作复盘", link: "/工作复盘/工作每日复盘2024-01-03" },
       { text: "Examples", link: "/markdown-examples" },
       { text: "Examples", link: "/markdown-examples" },
     ],
 
     sidebar: [
       {
-        text: "Examples",
+        text: "吃",
         items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
+          { text: "青岛小花蛤", link: "/eat/青岛小花蛤" },
+          { text: "Runtime API Examples", link: "/api-examples" },
+        ],
+      },
+      {
+        text: "工作复盘",
+        items: [
+          { text: "工作每日复盘2024-01-03", link: "/工作复盘/工作每日复盘2024-01-03" },
           { text: "Runtime API Examples", link: "/api-examples" },
         ],
       },
