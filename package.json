@@ -17,5 +17,8 @@
   "license": "MIT",
   "devDependencies": {
     "vitepress": "^1.0.0-rc.40"
+  },
+  "dependencies": {
+    "vite-plugin-vitepress-auto-sidebar": "latest"
   }
 }
