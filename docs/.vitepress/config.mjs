@@ -28,10 +28,15 @@ export default defineConfig({
       next: "下一页",
     },
     nav: [
-      { text: "Home", link: "/" },
-      { text: "吃", link: "/eat/青岛小花蛤" },
-      { text: "追剧", link: "/追剧/成就" },
-      { text: "工作复盘", link: "/work/2024-01-03" },
+      {
+        text: "人间烟火",
+        items: [
+          { text: "吃", link: "/eat/青岛小花蛤" },
+          { text: "追剧", link: "/追剧/成就" },
+          { text: "愿望储存罐", link: "/愿望储存罐/清单" },
+        ],
+      },
+      { text: "工作复盘", link: "/工作复盘/2024-01-03" },
       {
         text: "兴趣学习",
         items: [
@@ -50,15 +55,20 @@ export default defineConfig({
         ],
       },
       {
-        text: "快速搭建业务系统",
-        link: "/buildBusinessSystems/产品反馈社区-兔小巢",
-      },
-      {
-        text: "微信开发",
+        text: "业务成长",
         items: [
           {
-            text: "小程序",
-            link: "/微信开发/小程序/小程序备案",
+            text: "快速搭建业务系统",
+            link: "/快速搭建业务系统/产品反馈社区-兔小巢",
+          },
+          {
+            text: "微信开发",
+            items: [
+              {
+                text: "小程序",
+                link: "/微信开发/小程序/小程序备案",
+              },
+            ],
           },
         ],
       },
