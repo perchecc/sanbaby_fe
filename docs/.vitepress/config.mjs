@@ -26,8 +26,8 @@ export default defineConfig({
     },
     nav: [
       { text: "Home", link: "/" },
-      { text: "吃", link: "/eat/index" },
-      { text: "工作复盘", link: "/工作复盘/工作每日复盘2024-01-03" },
+      { text: "吃", link: "/eat/qingdaoxiaohuage" },
+      { text: "工作复盘", link: "/work/2024-01-03" },
     ],
     socialLinks: [{ icon: "github", link: "https://github.com/perchecc" }],
   },
