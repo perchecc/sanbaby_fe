@@ -6,6 +6,9 @@ hero:
   name: "前端加油站"
   text: "sanbaby's blog"
   tagline: 不积跬步，无以至千里
+  image:
+    src: /logo.png
+    alt: Sanbaby
   actions:
     - theme: brand
       text: 开始加油

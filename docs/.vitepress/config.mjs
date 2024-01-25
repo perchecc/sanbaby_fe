@@ -9,6 +9,9 @@ export default defineConfig({
   title: "前端加油站",
   description: "vitepress搭建的博客，前端加油站，学习前端知识",
   themeConfig: {
+    search: {
+      provider: "local",
+    },
     // https://vitepress.dev/reference/default-theme-config
     logo: "/logo.png",
     siteTitle: false,
@@ -28,7 +31,7 @@ export default defineConfig({
       { text: "Home", link: "/" },
       { text: "吃", link: "/eat/青岛小花蛤" },
       { text: "工作复盘", link: "/work/2024-01-03" },
-      { text: "兴趣学习", link: "/interesting/index" },
+      { text: "兴趣学习", link: "/兴趣学习/index" },
       {
         text: "快速搭建业务系统",
         link: "/buildBusinessSystems/产品反馈社区-兔小巢",
