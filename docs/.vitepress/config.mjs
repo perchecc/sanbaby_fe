@@ -28,6 +28,7 @@ export default defineConfig({
       { text: "Home", link: "/" },
       { text: "吃", link: "/eat/青岛小花蛤" },
       { text: "工作复盘", link: "/work/2024-01-03" },
+      { text: "兴趣学习", link: "/interesting/index" },
       {
         text: "快速搭建业务系统",
         link: "/buildBusinessSystems/产品反馈社区-兔小巢",
