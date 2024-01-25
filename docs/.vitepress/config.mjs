@@ -30,8 +30,25 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "吃", link: "/eat/青岛小花蛤" },
+      { text: "追剧", link: "/追剧/成就" },
       { text: "工作复盘", link: "/work/2024-01-03" },
-      { text: "兴趣学习", link: "/兴趣学习/index" },
+      {
+        text: "兴趣学习",
+        items: [
+          {
+            text: "前端",
+            link: "/兴趣学习/前端",
+          },
+          {
+            text: "考证",
+            link: "/兴趣学习/考证",
+          },
+          {
+            text: "idea",
+            link: "/兴趣学习/idea",
+          },
+        ],
+      },
       {
         text: "快速搭建业务系统",
         link: "/buildBusinessSystems/产品反馈社区-兔小巢",
