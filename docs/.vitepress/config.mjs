@@ -18,7 +18,7 @@ export default defineConfig({
     outlineTitle: "大纲",
     footer: {
       message: "sanbaby - 前端的加油站",
-      copyright: "Copyright © 2019-present 随易科技",
+      copyright: "苏ICP备2022011280号-1",
     },
     docFooter: {
       prev: "上一页",
@@ -26,8 +26,55 @@ export default defineConfig({
     },
     nav: [
       { text: "Home", link: "/" },
-      { text: "吃", link: "/eat/qingdaoxiaohuage" },
+      { text: "吃", link: "/eat/青岛小花蛤" },
       { text: "工作复盘", link: "/work/2024-01-03" },
+      {
+        text: "快速搭建业务系统",
+        link: "/buildBusinessSystems/产品反馈社区-兔小巢",
+      },
+      {
+        text: "微信开发",
+        items: [
+          {
+            text: "小程序",
+            link: "/微信开发/小程序/小程序备案",
+          },
+        ],
+      },
+      {
+        text: "自用软件",
+        link: "/自用软件/axure10/axure安装教程（附中文汉化包）",
+      },
+      {
+        text: "第三方",
+        items: [
+          {
+            text: "前端插件",
+            items: [
+              {
+                // [Lodash 简介 | Lodash 中文文档 | Lodash 中文网](https://www.lodashjs.com/)
+                text: "Lodash 中文文档",
+                link: "https://www.lodashjs.com/",
+              },
+            ],
+          },
+          {
+            text: "webGL",
+            items: [
+              {
+                // [Three.js - examples](http://stemkoski.github.io/Three.js/#hello-world)
+                text: "Three.js - examples",
+                link: "http://stemkoski.github.io/Three.js/#hello-world",
+              },
+              {
+                // [glTF Viewer](https://gltf-viewer.donmccurdy.com/)
+                text: "glTF Viewer",
+                link: "https://gltf-viewer.donmccurdy.com/",
+              },
+            ],
+          },
+        ],
+      },
     ],
     socialLinks: [{ icon: "github", link: "https://github.com/perchecc" }],
   },
