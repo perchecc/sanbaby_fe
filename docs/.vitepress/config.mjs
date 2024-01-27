@@ -29,7 +29,7 @@ export default defineConfig({
     },
     nav: [
       { text: "Home", link: "/" },
-      { text: "吃", link: "/eat/青岛小花蛤" },
+      { text: "吃", link: "/eat/不吃的" },
       { text: "追剧", link: "/追剧/成就" },
       { text: "工作复盘", link: "/work/2024-01-03" },
       {
