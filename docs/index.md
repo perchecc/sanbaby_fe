@@ -12,10 +12,16 @@ hero:
   actions:
     - theme: brand
       text: 开始加油
-      link: /markdown-examples
+      link: /微信开发/小程序/小程序备案
     - theme: alt
       text: Github
       link: https://github.com/perchecc/sanbaby_fe
 
 features:
+  - icon: 🛠️
+    title: 面向结果
+    details: 不用在乎工具
+  - icon: 🛠️
+    title: 完成比完美更重要
+    details: 先完成，才能完美
 ---
