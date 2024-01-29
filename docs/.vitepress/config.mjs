@@ -34,6 +34,7 @@ export default defineConfig({
           { text: "吃", link: "/eat/不吃的" },
           { text: "追剧", link: "/追剧/成就" },
           { text: "愿望储存罐", link: "/愿望储存罐/清单" },
+          { text: "冥想", link: "/冥想" },
         ],
       },
       { text: "工作复盘", link: "/工作复盘/2024-01-03" },
