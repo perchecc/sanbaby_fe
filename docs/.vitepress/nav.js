@@ -2,7 +2,7 @@ export default [
   {
     text: "人间烟火",
     items: [
-      { text: "吃", link: "/eat/不吃的" },
+      { text: "吃", link: "/eat/附近餐馆菜单" },
       { text: "追剧", link: "/追剧/成就" },
       { text: "愿望储存罐", link: "/愿望储存罐/清单" },
       { text: "冥想", link: "/冥想" },
