@@ -40,5 +40,4 @@ Vimeo
 
 室内地图提供商国内只也有不到十家，其中蜂鸟云、懋特物联以及图聚是国内排名前三的室内地图服务公司。综合下来，能够提供室内定位与地图导航服务的公司也只有上海的懋特物联与图聚了！
 
-<a href="/images/v2-cd783792d3e33ec30a1733949338f291_720w.webp" target="_blank">室内导航公司的一些资料</a>
-![室内导航公司的一些资料](/images/v2-cd783792d3e33ec30a1733949338f291_720w.webp)
+<a href="https://cdn.perche.cc/fe.perche.cc/images/v2-cd783792d3e33ec30a1733949338f291_720w.webp" target="_blank">室内导航公司的一些资料</a>
