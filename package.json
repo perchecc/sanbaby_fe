@@ -16,6 +16,7 @@
   "author": "perchecc",
   "license": "MIT",
   "devDependencies": {
+    "@vuepress/plugin-medium-zoom": "^1.9.10",
     "vitepress": "^1.0.0-rc.40"
   },
   "dependencies": {
