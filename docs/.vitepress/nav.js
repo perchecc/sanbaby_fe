@@ -6,9 +6,10 @@ export default [
       { text: "追剧", link: "/追剧/成就" },
       { text: "愿望储存罐", link: "/愿望储存罐/清单" },
       { text: "冥想", link: "/冥想" },
+      { text: "生育", link: "/生育/新生儿入户办理指南" },
     ],
   },
-  { text: "工作复盘", link: "/工作复盘/2024-01-03" },
+  // { text: "工作复盘", link: "/工作复盘/2024-01-03" },
   {
     text: "兴趣学习",
     items: [
@@ -23,6 +24,10 @@ export default [
       {
         text: "idea",
         link: "/兴趣学习/idea",
+      },
+      {
+        text: "计算机硬件",
+        link: "/兴趣学习/计算机硬件/一文读懂Legacy 和 UEFI的区别，到底选择哪一个？",
       },
     ],
   },
