@@ -15,19 +15,19 @@ export default [
     items: [
       {
         text: "前端",
-        link: "/兴趣学习/前端",
+        link: "/前端/成就记录",
       },
       {
         text: "考证",
-        link: "/兴趣学习/考证",
+        link: "/考证/考证",
       },
       {
         text: "idea",
-        link: "/兴趣学习/idea",
+        link: "/商业点子/idea",
       },
       {
         text: "计算机硬件",
-        link: "/兴趣学习/计算机硬件/一文读懂Legacy 和 UEFI的区别，到底选择哪一个？",
+        link: "/计算机硬件/一文读懂Legacy 和 UEFI的区别，到底选择哪一个？",
       },
     ],
   },
