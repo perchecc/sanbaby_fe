@@ -11,23 +11,27 @@ export default [
   },
   // { text: "工作复盘", link: "/工作复盘/2024-01-03" },
   {
-    text: "兴趣学习",
+    text: "学习",
     items: [
       {
         text: "前端",
         link: "/前端/成就记录",
       },
       {
+        text: "后端",
+        link: "/后端/vscode安装springboot环境",
+      },
+      {
         text: "考证",
         link: "/考证/考证",
       },
       {
-        text: "idea",
-        link: "/商业点子/idea",
-      },
-      {
         text: "计算机硬件",
         link: "/计算机硬件/一文读懂Legacy 和 UEFI的区别，到底选择哪一个？",
+      },
+      {
+        text: "idea",
+        link: "/商业点子/idea",
       },
     ],
   },
